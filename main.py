@@ -59,11 +59,6 @@ def DueData(inputdata):
                 angle[2] = my_map(int(Angle[2]),0,360,360,0)+180
                 if(angle[2] > 360):
                     angle[2] -= 360
-                """
-                if(angle[2]>180):
-                    angle[2] - 180
-                else:
-                    angle[2] + 180"""
                 
                 #print("Angle(deg):%10.3f %10.3f %10.3f"%Angle)
                 #print("X:%d  Y:%d  Z:%d"%(angle[0],angle[1],angle[2]))
